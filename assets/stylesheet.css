@@ -1,9 +1,43 @@
-.panel {
-    text-align: center;
-    padding: 40px;
-    background: lightblue;
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F7D5AD;
 }
 
-h1 {
-    font-weight: 800
+
+.panel {
+    padding-bottom: 40px;
+    padding: 40px;
+    height: 600px;
+    background: #F7934C;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.panelheaders {
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.panelh1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #1D3557;
+  text-align: center;
+    color: #F1FAEE;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: whitesmoke;
 }
