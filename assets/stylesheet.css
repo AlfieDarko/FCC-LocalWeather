@@ -3,7 +3,6 @@ body {
     background-color: #F7D5AD;
 }
 
-
 .panel {
     padding-bottom: 40px;
     padding: 40px;
@@ -13,7 +12,6 @@ body {
 }
 
 .panelheaders {
-
     text-align: center;
     color: #FFFFFF;
 }
@@ -24,13 +22,13 @@ body {
 }
 
 .footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0.5rem;
-  background-color: #1D3557;
-  text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    background-color: #1D3557;
+    text-align: center;
     color: #F1FAEE;
 }
 
@@ -41,3 +39,7 @@ a {
 a:hover {
     color: whitesmoke;
 }
+
+
+
+
