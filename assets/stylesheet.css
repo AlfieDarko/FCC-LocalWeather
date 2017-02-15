@@ -1,19 +1,28 @@
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #F7D5AD;
-}
+    
+
+
+        }
 
 .panel {
-    padding-bottom: 40px;
-    padding: 40px;
-    height: 600px;
-    background: #F7934C;
-    box-shadow: 1px 1px 1px #888888;
+    position: absolute;
+    top: 230px;
+    padding: 0px;
+    height: 300px;
+    width: 450px;
 }
 
 .panelheaders {
+    font-family: Nunito Sans;
+font-weight: 800;
     text-align: center;
     color: #FFFFFF;
+}
+
+.smallerheader{
+    font-weight: 200;
+    font-size: 18px;
 }
 
 .panelh1 {
@@ -41,5 +50,30 @@ a:hover {
 }
 
 
+#weatherContainer {
+    font-variant: small-caps;
+    color:white;
+    font-size: 24px
+}
+
+#weatherIconContainer {
+}
+
+html {
+  height: 100%;
+}
 
 
+
+
+
+
+
+#gradient {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #836997;
+}
